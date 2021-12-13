@@ -1,0 +1,618 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #dad6d6;
+}
+.dashboard{
+    background: white;
+    width: 94rem;
+    padding: 1rem;
+    margin: 0.5rem auto;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 5% 70% 25% ;
+    
+}
+
+/*----------------------------------*/
+.navigation{
+    background-color: white;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+
+.menu_icon{
+    background-color: #e4e2e2;
+    border-radius: 1rem;
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
+.menu_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+.folder_icon{
+    background-color: #e4e2e2;
+    border-radius: 1rem;
+    margin-top: 10px;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.folder_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+.weather_report_icon{
+    background-color: #e4e2e2;
+    border-radius: 1rem;
+    margin-top: 10px;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.weather_report_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+.inventory_icon{
+    background-color: #e4e2e2;
+    border-radius: 1rem;
+    margin-top: 10px;
+    opacity: 0.5;
+    margin-top: 25px;
+}
+
+.inventory_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+.notification_icon{
+    background-color: #fa6653;
+    border-radius: 1rem;
+    margin-top: 545px;
+}
+
+.notification_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+.profile_icon{
+    background-color:#999999;
+    border-radius: 1rem;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.profile_icon:hover{
+    opacity: 1;
+    color:white!important;
+    background-color:#999999;
+}
+
+/*-------------------------*/
+
+.main{
+    background-color: #181897;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 2rem;
+}
+
+.search_symbol{
+    float: left;
+    border-radius: 1rem;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 2rem;
+    opacity: 0.5;
+}
+
+.search_symbol button{
+    background-color: #181897;
+    width: 10px;
+    height: 45px;
+    padding-right: 40px;
+    border-radius: 3rem;
+    border: solid #181897;
+}
+
+.search_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: blue;
+}
+
+.search{
+    float: left;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.search form input{
+    width: 200px;
+    height: 45px;
+    background-color: #181897;
+    border: 1px solid #181897;
+    border-radius: 2rem;
+    font-weight: 400 ;
+    font-size: 20px;
+    opacity: 0.5;
+    color: #e4e2e2;
+}
+
+.title1{
+    float: left;
+    margin-top: 120px;
+    margin-left: -250px;
+    color: white;
+}
+
+.title2{
+    float: left;
+    margin-top: 120px;
+    margin-left: -80px;
+    color: white;
+    opacity: 0.8;
+}
+
+.settings_icon{
+    float: left;
+    margin-top: 130px;
+    margin-left: 570px;
+    color: white;
+}
+
+.weather_graph1{
+    float: left;
+    margin-top: 50px;
+    margin-left: -320px;
+    border-radius: 2rem;
+}
+
+.weather_graph1 img{
+    border-radius: 2rem;
+    width: 490px;
+}
+
+.precipitation1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.precipitation1 img{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 190px;
+    
+}
+
+.precipitation1_content{
+    float: left;
+    margin-top: 172px;
+    margin-left: -190px;
+    background-color: #3955b4;
+    opacity: 0.9;
+    width: 190px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.precipitation1_content h4{
+    color: white;
+    padding-left: 20px;
+}
+
+.precipitation1_content p{
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.precipitation2{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.precipitation2 img{
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    width: 190px;
+}
+
+.precipitation2_content{
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+    background-color: #3955b4;
+    opacity: 0.9;
+    width: 190px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.precipitation2_content h4{
+    color: white;
+    padding-left: 20px;
+}
+
+.precipitation2_content p{
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.weather_graph2{
+    float: left;
+    border-radius: 2rem;
+}
+
+.weather_graph2 img{
+    border-radius: 2rem;
+    width: 490px;
+    margin-top: 50px;
+    margin-left: 55px;
+    height: 290px;
+}
+
+.temperature{
+    background-color: #3955b4; 
+    float: left; 
+    border-radius: 2rem; 
+    margin-top: 50px; 
+    margin-left: 20px; 
+    width: 185px; 
+    height: 180px;
+    opacity: 0.9;
+}
+
+.thermometer_icon{
+    color: white;
+    font-size: 25px;
+    margin-top: -85px;
+    margin-left: 55px;
+}
+
+.degree1{
+    color: white;
+    margin-left: 78px;
+    margin-top: -31px;
+}
+
+.degree1 h5{
+    font-size: 17px;
+}
+
+
+.spinner-border {
+    width: 8rem; 
+    height: 8rem; 
+    border-width: 8px; 
+    margin-left: 28px;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+
+.humidity{
+    background-color: #3955b4; 
+    float: left; 
+    border-radius: 2rem; 
+    margin-top: 50px; 
+    margin-left: 25px; 
+    width: 185px; 
+    height: 180px;
+    opacity: 0.9;
+}
+
+.humidity_icon{
+    color: white;
+    font-size: 25px;
+    margin-top: -85px;
+    margin-left: 60px;
+}
+
+.humidity1{
+    color: white;
+    margin-left: 85px;
+    margin-top: -30px;
+}
+
+.humidity1 h5{
+    font-size: 17px;
+}
+
+/*-----------------------------*/
+
+.secondary{
+    background-color: #3976d3;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 2rem;
+}
+
+.sun_symbol{
+    float: left;
+    background-color: #6592d4;
+    margin-left: 40px;
+    margin-top: 60px;
+    border-radius: 1rem;
+    
+}
+
+.sun_symbol i{
+    float: left; 
+    font-size:45px; 
+    color: white;  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.sun_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.sunny_content{
+    float: left;
+    margin-top: 180px;
+    margin-left: -80px;
+    color: white;
+}
+
+.sunny_content p{
+    opacity: 0.8;
+}
+
+.info{
+    float: left;
+    color: white;
+    margin-top: 330px;
+    margin-left: -170px;
+    opacity: 0.8;
+}
+
+.wind_symbol{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -175px;
+    margin-top: 380px;
+    border-radius: 1rem;
+}
+
+.wind_symbol i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.wind_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.humidity_icon2{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -90px;
+    margin-top: 380px;
+    border-radius: 1rem;
+}
+
+.humidity_icon2 i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.humidity_icon2:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.thermometer_icon2{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -5px;
+    margin-top: 380px;
+    border-radius: 1rem;
+}
+
+.thermometer_icon2 i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.thermometer_icon2:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.add_symbol{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -230px;
+    margin-top: 460px;
+    border-radius: 1rem;
+}
+
+.add_symbol i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.add_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.city_heading{
+    float: left;
+    color: white;
+    margin-top: 590px;
+    margin-left: -225px;
+    opacity: 0.8;
+}
+
+.cloud_rain_symbol{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -230px;
+    margin-top: 640px;
+    border-radius: 1rem;
+}
+
+.cloud_rain_symbol i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.cloud_rain_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.city_content1{
+    float: left;
+    color: white;
+    margin-top: 640px;
+    margin-left: -140px;
+}
+
+.city_content1 p{
+    color: white;
+    opacity: 0.8;
+}
+
+.umbrella_symbol{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -230px;
+    margin-top: 720px;
+    border-radius: 1rem;
+}
+
+.umbrella_symbol i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.umbrella_symbol:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.city_content2{
+    float: left;
+    color: white;
+    margin-top: 720px;
+    margin-left: -140px;
+}
+
+.city_content2 p{
+    color: white;
+    opacity: 0.8;
+}
+
+.add_symbol2{
+    float: left;
+    background-color: #6592d4;
+    margin-left: -230px;
+    margin-top: 800px;
+    border-radius: 1rem;
+}
+
+.add_symbol2 i{
+    float: left; 
+    font-size:30px; 
+    color: white;  
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 1rem;
+}
+
+.add_symbol2:hover{
+    opacity: 1;
+    color:#d6e0e4fa!important;
+    background-color: #7994b9;
+}
+
+.dot_symbol{
+    float: left;
+    margin-top: 910px;
+    margin-left: -100px;
+}
+
+.dot_symbol i{
+    float: left;
+    color: white;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
